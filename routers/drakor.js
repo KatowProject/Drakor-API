@@ -9,7 +9,7 @@ router.get('/:plug', async (req, res, next) => {
         const drakor = req.params.plug;
 
         /* get data from baseURL */
-        const response = await Axios(`https://ratudrakor.net/${drakor}`);
+        const response = await Axios(`https://ratudrakor.co/${drakor}`);
         const $ = cheerio.load(response.data);
         const main = $('.site-main');
 
