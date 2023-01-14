@@ -1,7 +1,7 @@
 /* Module */
 const axios = require('axios').default;
 const tough = require('tough-cookie');
-const baseURL = 'https://ratudrakor.net/';
+const baseURL = 'https://ratudrakor.co/';
 const cookieJar = new tough.CookieJar();
 
 /* === */
